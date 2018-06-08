@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="24dp"
+    android:backgroundTint="#FFFFFF"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:src="@drawable/illustration2"
+        android:layout_width="345dp"
+        android:layout_height="230dp"
+        android:id="@+id/imageView2"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp" />
+    <TextView
+        android:text="Effortless Tracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:layout_marginTop="24dp"
+        android:id="@+id/onboardingHeadling2" />
+    <TextView
+        android:text="Easily track and manage your data \n all under one platform! It’s never been better"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#AEAEAE"
+        android:layout_marginTop="24dp"
+        android:id="@+id/onboardingStatement2" />
+    <Button
+        android:text="SIGN IN NOW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3CA068"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp"
+        android:id="@+id/signIn2" />
+</LinearLayout>
